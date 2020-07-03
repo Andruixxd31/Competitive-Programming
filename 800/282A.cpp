@@ -9,7 +9,6 @@ int main(int argc, char const *argv[])
 	string op = "";
 	for(int i = 0; i < n; i++){
 		cin >> op;
-		// str1.compare(str2) != 0
 		if(op.compare("++X") == 0 || op.compare("X++") == 0) ++x;
 		else if (op.compare("--X") == 0 || op.compare("X--") == 0) --x;
 	}
