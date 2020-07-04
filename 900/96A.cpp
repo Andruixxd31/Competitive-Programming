@@ -21,7 +21,7 @@ int main()
 				cout << "YES";
 				return 0;
 			}
-		} else{
+		} else {
 			++b;
 			a = 0;
 			if(b >= 7){
@@ -33,6 +33,5 @@ int main()
 	cout << "NO";
 	return 0;
 }
-
 
 // 62 ms	200 KB
