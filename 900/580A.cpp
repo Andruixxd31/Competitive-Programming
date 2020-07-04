@@ -26,3 +26,5 @@ int main()
 	cout << count;
 	return 0;
 }
+
+// 61 ms	400 KB
