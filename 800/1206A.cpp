@@ -6,9 +6,9 @@ int main()
 	ios::sync_with_stdio(0); 
 	cin.tie(0);
 
-	int n = m = nElm = mElm = 0;
+	int n = 0, m = 0, nElm = 0, mElm = 0;
 	int i;
-	int numA = numB = 0;
+	int numA = 0, numB = 0;
 
 	cin >> n; 
 	for (i = 0; i < n; ++i)
